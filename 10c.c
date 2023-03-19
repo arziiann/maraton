@@ -2,17 +2,7 @@
 #include <stdlib.h>
 
 
-void array(int num1, int num2, int* arr)
-{
-	for(int i = num1 + 1; i < num2; i++)
-	{
-		arr[i] = i;
-		printf("%i\n", arr[i]);
-	}
-	printf("%p", arr);
-
-}
-
+void array(int num1, int num2, int* arr);
 
 int main()
 {
@@ -28,3 +18,15 @@ int main()
 	array(num1, num2, arr);
 
 }
+
+void array(int num1, int num2, int* arr)
+{
+        for(int i = num1 + 1; i < num2; i++)
+        {
+                arr[i] = i;
+                printf("%i\n", arr[i]);
+        }
+        printf("%p", arr);
+
+}
+
