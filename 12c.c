@@ -17,6 +17,11 @@ int main()
 
 void parz_bard_tver(int number)
 {
+	if(number = 1)
+        {
+                printf("voch parz e voch baxadryl");
+        }
+	
 	int count = 0;
 		
 	for(int i = 1; i < number; i++)
