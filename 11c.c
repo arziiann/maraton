@@ -19,6 +19,7 @@ int main()
 
 	}
 	zangvac_hakarak_hertakanutyamb(array, size);
+	free(array);
 
 }
 
