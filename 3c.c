@@ -29,6 +29,9 @@ int main()
 	
  
 	arrays(array_1, array_2, array_3, size);
+	free(array_1);
+	free(array_2);
+	free(array_3);
 }
 
 
