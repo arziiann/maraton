@@ -35,6 +35,7 @@ int main()
 	{
 		printf("kent en --> %i \n", ptr_1[i]);
 	}
+	free(ptr);
 }
 
 void kent_tver(int *arr_1, int *arr_2, int size)
