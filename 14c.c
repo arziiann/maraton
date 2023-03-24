@@ -14,6 +14,7 @@ int main()
 		printf("%i", copy[i]);
 
 	}
+	free(copy);
 }
 
 int* function(int size)
