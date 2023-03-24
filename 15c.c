@@ -19,6 +19,7 @@ int main()
 
 	}
 	char_array(array, size);
+	free(array);
 }
 
 
