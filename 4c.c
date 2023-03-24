@@ -21,6 +21,7 @@ int main()
 		
 	}
 	array_sum(array, size);
+	free(array);
 	
 }
 
